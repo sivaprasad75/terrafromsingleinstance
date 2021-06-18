@@ -100,7 +100,7 @@ resource "aws_security_group" "allow_all" {
 
 resource "aws_instance" "web-1" {
     #ami = "${data.aws_ami.my_ami.id}"
-    ami = "ami-0915e09cc7ceee3ab"
+    ami = "ami-0aeeebd8d2ab47354"
     availability_zone = "us-east-1a"
     instance_type = "t2.micro"
     key_name = "GREEN-KP"
